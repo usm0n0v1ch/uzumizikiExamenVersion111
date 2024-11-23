@@ -1,0 +1,124 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px 50px 100px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    gap:20px;   
+    z-index: 800;
+}
+.card{
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 50px 20px 50px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius:12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.imgInfo{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-items: center;
+}
+.name{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+.deleteButton{
+    background: white;
+    padding: 10px;
+    border:2px solid red;
+    transition: all 0.5s;
+}
+.deleteButton:hover{
+    background: red;
+    color:white;
+
+}
+
+.editButton{
+    background: white;
+    padding: 10px;
+    border:2px solid green;
+    transition: all 0.5s;
+}
+.editButton:hover{
+    background: green;
+    color:white;
+
+}   
+
+
+.actions{
+    display: flex;
+    gap: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    position: fixed; /* Фиксируем форму относительно окна */
+    top: 50%; /* Сдвигаем форму вниз на 50% высоты экрана */
+    left: 50%; /* Сдвигаем форму вправо на 50% ширины экрана */
+    transform: translate(-50%, -50%); /* Центрируем форму относительно её центра */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 70px;
+    gap:10px;
+}
+
+.actionsModal{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.saveButton{
+    background: white;
+    padding: 10px;
+    border:2px solid green;
+    transition: all 0.5s;
+    display: flex;
+
+}
+.saveButton:hover{
+    background: green;
+    color:white;
+    cursor: pointer;
+}
+
+.cancelButton{
+    background: white;
+    padding: 10px;
+    border:2px solid red;
+    transition: all 0.5s;
+    display: flex;
+
+}
+.cancelButton:hover{
+    background: red;
+    color:white;
+    cursor: pointer;
+}

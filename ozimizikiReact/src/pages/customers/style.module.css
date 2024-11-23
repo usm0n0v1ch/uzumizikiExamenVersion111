@@ -1,0 +1,138 @@
+
+
+.customersContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px 50px 100px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    gap:20px;   
+}
+.openModalButton{
+    display: flex;
+    padding: 10px;
+    width: 175px;
+    border: 2px solid green;
+    transition: all 0.5s;
+    background: white;
+}
+.openModalButton:hover{
+    background: green;
+    color:white;
+    cursor:pointer;
+
+}
+.searchInput{
+    width: 500px;
+    padding: 10px;
+    border:2px solid green;
+}
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.input{
+    padding: 10px;
+    border:2px solid green;
+}
+.submitButton{
+    padding: 10px;
+    border:2px solid green;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+.submitButton:hover{
+    background: green;
+    color:white;
+    cursor: pointer;
+}
+
+
+
+.closeButton{
+    padding: 10px;
+    border:2px solid red;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+.closeButton:hover{
+    background: red;
+    color:white;
+    cursor: pointer;
+}
+
+.modal{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    width: 500px;
+    
+    border-radius: 12px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.userList{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.card{
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 50px 20px 50px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.actions{
+    display: flex;
+    gap: 20px;
+}
+
+.deleteButton{
+    background: white;
+    padding: 10px;
+    border:2px solid red;
+    transition: all 0.5s;
+}
+.deleteButton:hover{
+    background: red;
+    color:white;
+    cursor: pointer;
+}
+
+.editButton{
+    background: white;
+    padding: 10px;
+    border:2px solid green;
+    transition: all 0.5s;
+}
+.editButton:hover{
+    background: green;
+    color:white;
+    cursor: pointer;
+}

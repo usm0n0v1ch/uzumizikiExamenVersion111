@@ -1,0 +1,15 @@
+
+
+
+.button{
+    border:2px solid red;
+    display: flex;
+    align-self: start;
+    padding: 10px;
+    transition: all 0.5s;
+}
+.button:hover{
+    background-color: red;
+    color: white;
+    cursor:pointer;
+}

@@ -1,0 +1,78 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px 50px 100px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    gap:20px;   
+}
+.addRentButton{
+    display: flex;
+    padding: 10px;
+    width: 135px;
+    border: 2px solid green;
+    transition: all 0.5s;
+    background: white;
+
+}
+.addRentButton:hover{
+    background: green;
+    color:white;
+    cursor:pointer;
+
+}
+.searchInput{
+    width: 500px;
+    padding: 10px;
+    border:2px solid green;
+}
+
+
+
+.rentList{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.rentItem{
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 50px 20px 50px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.deleteButton{
+    background: white;
+    padding: 10px;
+    border:2px solid red;
+    transition: all 0.5s;
+}
+.deleteButton:hover{
+    background: red;
+    color:white;
+    cursor: pointer;
+}
+
+.editButton{
+    background: white;
+    padding: 10px;
+    border:2px solid green;
+    transition: all 0.5s;
+}
+.editButton:hover{
+    background: green;
+    color:white;
+    cursor: pointer;
+}

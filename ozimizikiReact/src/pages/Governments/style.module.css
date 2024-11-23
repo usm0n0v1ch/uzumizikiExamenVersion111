@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px 50px 100px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    gap:20px;
+}
+
+.searchInput {
+    width: 500px;
+    padding: 10px;
+}
+
+.addUserForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+}
+
+.addButton{
+    text-decoration: none;
+    padding: 10px;
+    border:2px solid green;
+    transition: all 0.5s;
+    background-color: white;
+}
+.addButton:hover{
+    background-color: green;
+    color: white;
+}
+
+.userList{
+    list-style: decimal;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.options{
+    display: flex;
+    gap:20px
+}
+
+.deleteBtn{
+    background: white;
+    padding: 10px;
+    border:2px solid red;
+    transition: all 0.5s;
+}
+.deleteBtn:hover{
+    background: red;
+    color: white;
+    cursor:pointer;
+}
+
+
+.editBtn{
+    background: white;
+    padding: 10px;
+    border:2px solid green;
+    transition: all 0.5s;
+}
+.editBtn:hover{
+    background: green;
+    color: white;
+    cursor:pointer;
+}
+
+.modalOverlay{
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    padding: 100px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
+    background: white;
+}
+
+
+.modalContent{
+    display: flex;
+    flex-direction: column;
+}    
+
+.editForm{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+
+.inputEdit{
+    padding: 10px;
+}

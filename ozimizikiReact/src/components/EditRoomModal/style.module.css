@@ -1,0 +1,55 @@
+
+
+.modal{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.modalContent{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    max-width: 90%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.closeButton{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.submitButton{
+    padding: 10px;
+    border:2px solid green;
+    transition: all 0.5s;
+    display: flex;
+    
+}
+.submitButton:hover{
+    background: green;
+    color:white;
+    cursor: pointer;
+}
